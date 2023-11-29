@@ -1,0 +1,35 @@
+﻿@model FormDataModel
+
+<div class="container mt-5">
+    <h2>Enter Data</h2>
+    <form method="post" action="/Home/ProcessFormData">
+        <!-- Остальные поля формы -->
+
+        <div class="form-group">
+            <label for="tableName">Table Name:</label>
+            <input type="text" class="form-control" id="tableName" name="tableName" value="@Model.TableName" required>
+        </div>
+        <div class="form-group">
+            <label for="semiAreasSheetName">Semi Areas Sheet Name:</label>
+            <input type="text" class="form-control" id="semiAreasSheetName" name="semiAreasSheetName" value="@Model.SemiAreasSheetName" required>
+        </div>
+        <div class="form-group">
+            <label for="areaSheetName">Area Sheet Name:</label>
+            <input type="text" class="form-control" id="areaSheetName" name="areaSheetName" value="@Model.AreaSheetName" required>
+        </div>
+        <div class="form-group">
+            <label for="parsedSheetName">Parsed Sheet Name:</label>
+            <input type="text" class="form-control" id="parsedSheetName" name="parsedSheetName" value="@Model.ParsedSheetName" required>
+        </div>
+        <div class="form-group">
+            <label for="minHashtagFollowers">Min Hashtag Followers:</label>
+            <input type="number" class="form-control" id="minHashtagFollowers" name="minHashtagFollowers" value="@Model.MinHashtagFollowers" required>
+        </div>
+        <div class="form-group">
+            <label for="outputGoogleSheet">Output Google Sheet:</label>
+            <input type="text" class="form-control" id="outputGoogleSheet" name="outputGoogleSheet" value="@Model.OutputGoogleSheet" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

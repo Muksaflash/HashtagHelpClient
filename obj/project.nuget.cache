@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H0sr3S1lK9Hak6Uxq5JSmTOPeLSE6XZFVOi+FGJCtoRCearLbQynDtvMCjPo0ENSdpqdd+HMn5laqTnBtxvANQ==",
+  "success": true,
+  "projectFilePath": "/Users/aleksandrsytov/Documents/VScode projects/AnnetaSmm/GitHab/HashtagHelpClient/HashtagHelpClient/HashtagHelpClient.csproj",
+  "expectedPackageFiles": [
+    "/Users/aleksandrsytov/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
